@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppSplashScreen" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="windowSplashScreenBackground">
+            @color/teal_700
+        </item>
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/ic_splash
+        </item>
+        <item name="postSplashScreenTheme">
+            @style/Theme.ClassProject3
+        </item>
+    </style>
+
+
+    <style name="Theme.ClassProject3" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
